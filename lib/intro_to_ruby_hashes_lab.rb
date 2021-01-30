@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_hash_creator(key, value)
   data = {}
   data[key] = value
@@ -7,6 +9,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
+  binding.pry
+  hash[key]
   # return the correct value using the hash and key parameters
 end
 
