@@ -1,5 +1,8 @@
 def my_hash_creator(key, value)
-  my_hash_creator = {name: 'Grace Hopper'}
+  object = {}
+  object[key] = value
+  
+  return hash
   # return a hash that includes the key and value parameters passed into this method
 end
 
